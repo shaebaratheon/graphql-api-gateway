@@ -1,0 +1,19 @@
+{
+  "name": "graphql-api-gateway",
+  "version": "1.0.0",
+  "description": "High-performance GraphQL API gateway with JWT authorization, distributed rate limiting, and query batching",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "graphql": "^16.8.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
